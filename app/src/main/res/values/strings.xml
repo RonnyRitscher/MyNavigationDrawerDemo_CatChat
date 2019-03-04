@@ -6,5 +6,18 @@
     <string name="txt_drafts">Drafts</string>
     <string name="txt_sent_items">Sent Items</string>
     <string name="txt_trash">Trash</string>
+    
     <string name="example_email_de">example@email.de</string>
+    
+    <!-- Strings für die Navigation / NavigationDrawer -->
+    <string name="nav_inbox">Nachricht</string>
+    <string name="nav_drafts">Entwürfe</string>
+    <string name="nav_send">Sende Nachricht</string>
+    <string name="nav_trash">Mülleimer</string>
+    <string name="nav_support">Support</string>
+    <string name="nav_help">Hilfe</string>
+    <string name="nav_feedback">Gebe uns Feedback</string>
+    <string name="nav_open_drawer">open navigation drawer</string>
+    <string name="nav_close_drawer">close navigation drawer</string>
+    
 </resources>

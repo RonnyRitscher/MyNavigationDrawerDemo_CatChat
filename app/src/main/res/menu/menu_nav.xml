@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- single um nur ein Elemt auswählbar zu machen -->
+    <!-- android:checked="true" um einElement beim Start auszuwählen -->
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_inbox"
+            android:icon="@android:drawable/sym_action_email"
+            android:checked="true"
+            android:orderInCategory="100"
+            android:title="@string/nav_inbox"/>
+
+        <item android:id="@+id/nav_drafts"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:orderInCategory="200"
+            android:title="@string/nav_drafts"/>
+
+        <item android:id="@+id/nav_send"
+            android:icon="@android:drawable/ic_menu_send"
+            android:orderInCategory="300"
+            android:title="@string/nav_send"/>
+
+        <item android:id="@+id/nav_trash"
+            android:icon="@android:drawable/ic_delete"
+            android:orderInCategory="400"
+            android:title="@string/nav_trash"/>
+    </group>
+
+
+</menu>
