@@ -6,4 +6,5 @@
     <string name="txt_drafts">Drafts</string>
     <string name="txt_sent_items">Sent Items</string>
     <string name="txt_trash">Trash</string>
+    <string name="example_email_de">example@email.de</string>
 </resources>
