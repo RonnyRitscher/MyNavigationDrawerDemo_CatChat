@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyNavigationDrawerDemo_CatChat</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="txt_inbox">Inbox</string>
+    <string name="txt_drafts">Drafts</string>
+    <string name="txt_sent_items">Sent Items</string>
+    <string name="txt_trash">Trash</string>
+</resources>
