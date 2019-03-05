@@ -26,5 +26,21 @@
             android:title="@string/nav_trash"/>
     </group>
 
+    <!-- support-bereich -->
+    <item android:title="@string/nav_support"
+        android:orderInCategory="1000">
+        <menu>
+            <item android:id="@+id/nav_help"
+                android:orderInCategory="100"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="@string/nav_help"/>
+
+            <item android:id="@+id/nav_feedback"
+                android:orderInCategory="200"
+                android:icon="@android:drawable/sym_action_email"
+                android:title="@string/nav_feedback"/>
+        </menu>
+    </item>
+
 
 </menu>
